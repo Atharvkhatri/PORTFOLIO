@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atharvportfolio</title>
+    <!-- Add Toronto Gothic font -->
+    <link
+      href="https://db.onlinewebfonts.com/c/f69f3d5d6ff0e344d05c92cee27fc931?family=Toronto+Gothic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <style>
+      /* Enable smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar-container">
+      <div class="navbar">
+        <span class="logo">ATHARV KHATRI</span>
+        <div class="menu">
+          <a href="#hero" class="menu-item">Home</a>
+          <a href="#portfolio" class="menu-item">Works</a>
+          <a href="#about" class="menu-item">About</a>
+          <a href="#contact" class="menu-item">Contact</a>
+        </div>
+        <a href="#contact" class="get-in-touch">GET IN TOUCH</a>
+      </div>
+    </div>
+    <div class="background">
+      <img src="img/kalakaar1.png" alt=" " />
+    </div>
+
+    <main>
+      <section id="hero">
+        <div class="intro">
+          <h2 style="line-height: 1; text-align: left; font-size: 250px">
+            VISUAL STORYTELLER
+          </h2>
+        </div>
+      </section>
+      <section id="portfolio">
+        <h1 style="font-size: 100px">Branding</h1>
+        <!-- Swiper Section -->
+        <div class="swiper mySwiper" style="height: 100%">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" style="box-shadow: black 5px 5px 20px">
+              <img src="img 2/glossarylayoutAsset 12.png" alt="Project 1" />
+            </div>
+            <div class="swiper-slide" style="box-shadow: black 5px 5px 20px">
+              <img
+                src="img 2/WhatsApp Image 2024-11-29 at 13.55.26_919df3de.jpg"
+                alt="Project 2"
+              />
+            </div>
+            <div class="swiper-slide" style="box-shadow: black 5px 5px 20px">
+              <img src="img 2/Screenshot 2024-11-29 140027.png" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+        <button class="neon-button">
+          <a href="morework12.html" style="color: unset; text-decoration: none"
+            >More Work</a
+          >
+        </button>
+      </section>
+
+      <section id="about">
+        <div class="intro">
+          <h2 style="line-height: 1; text-align: center; font-size: 205px">
+            ABOUT ME
+          </h2>
+          <p
+            style="
+              letter-spacing: 1px;
+              font-family: 'Helvetica', sans-serif;
+              text-align: left;
+              padding: 25px;
+              font-size: 50px;
+            "
+          >
+            Hello. I am Atharv Khatri, a visual storyteller and a visual
+            designer based in Mumbai, India. With an ability to look beyond the
+            ordinary, my journey is fueled by a passion for photography,
+            appreciation for visual storytelling, and curiosity to explore the
+            uncharted territories of creativity, driving me forward as an
+            aspiring communication designer.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h1 style="font-size: 100px">Contact Form</h1>
+        <form action="#" method="POST" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Subject"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your message"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>© 2024 Atharv Khatri. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        centeredSlides: true,
+        spaceBetween: 30,
+      });
+    </script>
+  </body>
+</html>
