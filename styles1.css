@@ -1,0 +1,252 @@
+@import url("https://db.onlinewebfonts.com/c/f69f3d5d6ff0e344d05c92cee27fc931?family=Toronto+Gothic");
+@font-face {
+    font-family: "Helvetica";
+   
+}
+
+/* Apply globally to all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Bold", sans-serif;
+}
+
+/* Example: Specific to headings */
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0013FF; /* Bright blue */
+  }
+  
+  /* Navbar Styles */
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  
+  .navbar {
+    background-color: #D9D9D9; /* Light gray */
+    padding: 15px 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo {
+    letter-spacing: normal;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 20px;
+    letter-spacing: normal;
+  }
+  
+  .menu-item {
+    letter-spacing: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    position: relative;
+  }
+  
+  .menu-item.{
+    letter-spacing: normal;
+  }
+  .navbar .menu-item:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+    font-weight: bold;
+}
+  
+  
+  .get-in-touch {
+    background-color: #FFFF00; /* Bright yellow */
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  .get-in-touch:hover {
+    background-color: #fffffc;
+ }
+
+  
+  /* Background Section */
+  .background {
+    height: calc(100vh - 100px); /* Adjust height based on screen size */
+    background-image: url('kalakaar1.png'); /* Replace with your image */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /* Custom CSS for additional styling */
+.custom-image {
+  border-radius: 20px; /* Add rounded corners to the image */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  max-width: 20%; /* Limit the width of the image */
+}
+header h1 {
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 2rem;
+}
+
+img{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-family: "Helvetica", sans-serif;
+}
+
+body {
+    background-color: #1900ff;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+header {
+    background:#1900ff;
+    color: #f8ecdc;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    padding: 50px 20px 20px 20px;
+    text-align: center;
+color: #eeff00;
+}
+
+#portfolio {
+    padding: 2rem;
+    text-align: center;
+    background: #1900ff;
+}
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #292e31;
+    color: #f8ecdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    padding: 2rem;
+    background: #1900ff;
+}
+
+form {
+    margin-left: auto;
+    max-width: auto;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background: #292e31;
+    color: #f8ecdc;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+form button:hover {
+    background: #444;
+}
+
+footer {
+    background: #292e31;
+    color: #f8ecdc;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.swiper-slide {
+    display: flex !important;
+}
+
+.swiper {
+    overflow: unset !important;}
+
+/* Neon Button Styling */
+
+.neon-button {
+    
+    background-color: black;
+    color: #eaff00;
+    border: 2px solid #292e31;
+    padding: 10px 30px;
+    font-size: 35px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.4s, color 0.4s;
+    overflow: hidden;
+}
+ .neon-button:hover {
+    background-color: #FFFF00;
+    color: black;
+ }
